@@ -3,7 +3,7 @@
 A framework for creating grounded instruction based datasets and training conversational domain expert Large Language Models (LLMs). Read more in our blog post: <<<<<<<<< LINK
 
 <p align="center">
-  <img height='300px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffeb6ed86-0dc8-42b8-84e4-9e09f5c95d6b_1318x688.png' />
+  <img height='400px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbc199b9-3aec-4c80-83c6-9a64886919dc_1318x868.png' />
 </p>
 
 
