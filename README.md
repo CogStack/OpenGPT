@@ -8,14 +8,14 @@ A framework for creating grounded instruction based datasets and training conver
 
 
 ## NHS-LLM
-A conversational model for healthcare trained using OpenGPT. All the datasets used to train this model were created using OpenGPT and are available below.
+A conversational model for healthcare trained using OpenGPT. All the medical datasets used to train this model were created using OpenGPT and are available below.
 
 ## Available datasets
 - NHS UK Q/A, 24,665 question and answer pairs, Prompt used: f53cf99826, Generated via OpenGPT using data available on the [NHS UK Website](https://www.nhs.uk/conditions/). Download [here](./data/nhs_uk_full/prepared_generated_data_for_nhs_uk_qa.csv)
 - NHS UK Conversations, 2,354 unique conversations, Prompt used: f4df95ec69, Generated via OpenGPT using data available on the [NHS UK Website](https://www.nhs.uk/conditions/). Download [here](./data/nhs_uk_full/prepared_generated_data_for_nhs_uk_conversations.csv)
 - Medical Task/Solution, 4,688 pairs generated via OpenGPT using GPT-4, prompt used: 5755564c19. Download [here](./data/medical_tasks_gpt4/prepared_generated_data_for_medical_tasks.csv)
 
-We also have a couple of small datasets for testing available in the `./data/example_project` and `./data/nhs_conditions_small_sample` folder.
+All datasets are in the `/data` folder.
 
 ## Installation
 ```
