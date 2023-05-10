@@ -2,10 +2,11 @@
 
 A framework for creating grounded instruction based datasets and training conversational domain expert Large Language Models (LLMs).
 
+Learn more in our blog: [AI for Healthcare | Introducing OpenGPT](https://aiforhealthcare.substack.com/p/a-large-language-model-for-healthcare).
+
 <p align="center">
   <img height='400px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbc199b9-3aec-4c80-83c6-9a64886919dc_1318x868.png' />
 </p>
-
 
 ## NHS-LLM
 A conversational model for healthcare trained using OpenGPT. All the medical datasets used to train this model were created using OpenGPT and are available below.
