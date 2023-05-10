@@ -35,10 +35,10 @@ def split_csv_by_max_len(datasets, max_len, tokenizer, base_path):
                 new_data_row.append(len(tokens[i*max_len:(i+1)*max_len]))
                 new_data_row.append(f'part_{i}')
                 new_data.append(new_data_row)
-        
+
         # Save
         new_df = pd.DataFrame(new_data[1:], columns=new_data[0])
-        new_df.to_csv(os.path.join(base_path, name, 'data_split_by_length.csv'))
+        new_df.to_csv(os.path.join(base_path, name, 'data_split_by_length.csv'), index=False)
         logging.warning(f'{dataset["name"]}: length before vs after: {len(df)} vs {len(new_df)}\n')
 
 
@@ -59,7 +59,7 @@ def create_dataset_no_input(config):
     teacher = getattr(teachers, f'ask_{config.teacher.name}')
     for prompt_config in config.prompts: 
         prompts = [prompt for prompt in prompt_db if prompt['hash'] in prompt_config['hashes']] # There must be one
- 
+
         parameters = prompt_config.get('extra_parameters', {})
 
         for language in prompt_config.get('languages', ['English']):
@@ -67,7 +67,7 @@ def create_dataset_no_input(config):
             logging.warning(f"\nStarting prompts: {prompt_config['hashes']}\n #Runs: {prompt_config['runs']}\nLanguage: {language}")
             for prompt in prompts:
                 # If some examples exist already
-                
+
 
                 start = len(raw_data[raw_data.prompt_hash == prompt['hash']])
                 for _ in tqdm(range(start, prompt_config['runs']), total=(prompt_config['runs'] - start)):
@@ -88,7 +88,7 @@ def create_dataset_no_input(config):
 
     if raw_data is not None and len(raw_data) > 0:
         raw_data.to_csv(raw_data_path, index=False)
-    
+
     return raw_data
 
 

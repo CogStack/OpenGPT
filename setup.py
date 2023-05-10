@@ -14,7 +14,7 @@ setuptools.setup(
     description="OpenGPT a framework for producing grounded domain specific LLMs, and NHS-LLM a conversational model for healthcare made using OpenGPT.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/w-is-h/opengpt",
+    url="https://github.com/cogstack/opengpt",
     packages=['opengpt'],
     install_requires=[
         'datasets>=2,<3',
