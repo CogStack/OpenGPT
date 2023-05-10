@@ -26,6 +26,11 @@ If you are working with LLaMA models, you will also need some extra requirements
 pip install ./train_requirements.txt
 ```
 
+## Tutorials
+
+- Making a mini conversational LLM for healthcare, [Google Colab - OpenGPT | The making of Dum-E](https://colab.research.google.com/drive/1GQj9dwBSCmzEh1PmbRlQQYlojCvOG-qG?usp=sharing) 
+
+
 ## How to
 
 1. We start by collecting a base dataset in a certain domain. For example, collect definitions of all disases (e.g. from [NHS UK](https://www.nhs.uk/conditions/)). You can find a small sample dataset [here](https://github.com/CogStack/OpenGPT/blob/main/data/nhs_conditions_small_sample/original_data.csv). It is important that the collected dataset has a column named `text` where each row of the CSV has one disease definition.
