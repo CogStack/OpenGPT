@@ -36,3 +36,20 @@ pip install ./train_requirements.txt
 
 3. Edit the [train_config](https://github.com/CogStack/OpenGPT/blob/main/configs/example_train_config.yaml) file and add the datasets you want to use for training.
 4. Use the [train notebook](https://github.com/CogStack/OpenGPT/blob/main/experiments/Supervised%20Training.ipynb) or run the training scripts to train a model on the new dataset you created.
+
+## More Examples
+
+<p align="center">
+  <img width='600px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3916352d-d1c9-451d-92db-652171f471e0_1318x1842.png' />
+</p>
+
+
+<p align="center">
+  <img width='600px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe47dc8e1-d26c-4312-a7a4-8a32bf5375b9_1318x1168.png' />
+</p>
+
+<p align="center">
+  <img width='600px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ab1ebe-2fab-4c94-80e7-69d4b95c8098_1318x854.png' />
+</p>
+
+
