@@ -1,6 +1,6 @@
 # OpenGPT
 
-A framework for creating grounded instruction based datasets and training conversational domain expert Large Language Models (LLMs). Read more in our blog post: <<<<<<<<< LINK
+A framework for creating grounded instruction based datasets and training conversational domain expert Large Language Models (LLMs).
 
 <p align="center">
   <img height='400px' src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbc199b9-3aec-4c80-83c6-9a64886919dc_1318x868.png' />
@@ -8,7 +8,7 @@ A framework for creating grounded instruction based datasets and training conver
 
 
 ## NHS-LLM
-A conversational model for healthcare trained using OpenGPT. All the datasets used to train this model were created using OpenGPT and are available below. If you want to learn more about the model have a look at our blogpos. [LINK]
+A conversational model for healthcare trained using OpenGPT. All the datasets used to train this model were created using OpenGPT and are available below.
 
 ## Available datasets
 - NHS UK Q/A, 24,665 question and answer pairs, Prompt used: f53cf99826, Generated using data available on the [NHS UK Website](https://www.nhs.uk/conditions/). Download [here](./data/nhs_uk_full/prepared_generated_data_for_nhs_uk_qa.csv)
@@ -21,7 +21,7 @@ We also have a couple of small datasets for testing available in the `./data/exa
 ```
 pip install opengpt
 ```
-If you are working with LLaMA models, then install the extra requirements from the repo:
+If you are working with LLaMA models, you will also need some extra requirements:
 ```
 pip install ./train_requirements.txt
 ```
