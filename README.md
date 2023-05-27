@@ -24,7 +24,7 @@ pip install opengpt
 ```
 If you are working with LLaMA models, you will also need some extra requirements:
 ```
-pip install ./train_requirements.txt
+pip install -r ./llama_train_requirements.txt
 ```
 
 ## Tutorials
